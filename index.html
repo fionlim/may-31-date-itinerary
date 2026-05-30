@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>31st May 2026 Date Itinerary</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__inner">
+      <div class="hero-heart-wrapper">
+        <span class="hero-heart">❤</span>
+        <span class="hero-heart">❤</span>
+        <span class="hero-heart">❤</span>
+      </div>
+      <div class="hero-lego-wrapper">
+        <span class="lego-block lego-block--1"></span>
+        <span class="lego-block lego-block--2"></span>
+        <span class="lego-block lego-block--3"></span>
+        <span class="lego-block lego-block--4"></span>
+      </div>
+      <h1>31st May 2026 Date Itinerary</h1>
+    </div>
+  </header>
+
+  <div class="page-layout">
+    <aside class="side-panel side-panel--left">
+      <img src="images/couple-1.jpg" alt="Couple" />
+      <img src="images/couple-2.jpg" alt="Couple" />
+      <img src="images/couple-1.jpg" alt="Couple" />
+      <img src="images/couple-2.jpg" alt="Couple" />
+      <img src="images/couple-1.jpg" alt="Couple" />
+    </aside>
+
+    <main class="page-content">
+      <section class="section" id="timeline-section">
+        <div class="section-header">
+          <h2>Complete the itinerary!</h2>
+          <p>Pick your brunch, snack/coffee, and dinner food options to update the itinerary.</p>
+        </div>
+        <div id="timeline" class="timeline"></div>
+      </section>
+
+      <section class="section secret-section" id="secret-section">
+        <h2>Secret Message</h2>
+        <p>Enter the 4-digit passcode to reveal the hidden message.</p>
+        <div class="secret-input-row">
+          <input id="secret-passcode" type="password" maxlength="4" inputmode="numeric" autocomplete="off" placeholder="0000" />
+          <button id="secret-unlock-button" class="lock-button" type="button" aria-pressed="false" title="Enter passcode to unlock">
+            <span class="lock-icon" aria-hidden="true">🔒</span>
+            <span class="visually-hidden">Unlock</span>
+          </button>
+        </div>
+        <p id="secret-error" class="secret-error" aria-live="polite"></p>
+        <div id="secret-message" class="secret-message hidden">
+          <p>Hello Wes! I hope you enjoyed today. Hope you know that you are very special to me in a stuttering way, and I just wanted to thank you for bringing me so much joy, always putting in so much effort and just supporting me all this while! I know I haven't said the L word just yet, but just know that it's already at the tip of my tongue!👅 This was a lot of mush so that is all you're getting for now. Await my future one-upping attempts!🫡❤️</p>
+        </div>
+      </section>
+    </main>
+
+    <aside class="side-panel side-panel--right">
+      <img src="images/couple-2.jpg" alt="Couple" />
+      <img src="images/couple-1.jpg" alt="Couple" />
+      <img src="images/couple-2.jpg" alt="Couple" />
+      <img src="images/couple-1.jpg" alt="Couple" />
+      <img src="images/couple-2.jpg" alt="Couple" />
+    </aside>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
